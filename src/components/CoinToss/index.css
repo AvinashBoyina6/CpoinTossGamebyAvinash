@@ -1,0 +1,62 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9d423;
+}
+.toss-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 30%;
+  height: 70%;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 14px;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.paragraph {
+  color: #334155;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 5px;
+  font-weight: 700;
+}
+.image {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.button {
+  background-color: #f9d423;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 16px;
+}
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
